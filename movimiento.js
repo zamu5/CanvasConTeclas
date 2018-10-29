@@ -4,7 +4,7 @@ var teclas = {
     UP:38,
     DOWN:40
 };
-console.log(teclas)
+console.log(teclas);
 
 var draw = document.getElementById("planoDibujo");
 var papel = draw.getContext("2d");
