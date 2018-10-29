@@ -5,7 +5,7 @@ var teclas = {
     DOWN:40
 };
 console.log(teclas);
-
+//esto es comentario
 var draw = document.getElementById("planoDibujo");
 var papel = draw.getContext("2d");
 dibujarLinea("red", 149, 149, 151, 151, papel);
